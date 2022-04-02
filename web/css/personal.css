@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2022, 8:09:24 PM
+    Author     : nthie
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Hanalei Fill', cursive;
+}
+
+body {
+    height: 100%;
+    width: auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+header {
+    color: #fff;
+}
+
+.add {
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #666666;
+    background: #f6f6f6;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.add:hover {
+    color: white;
+    background: #666;
+}
+
+.formsearch {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.formsearch input, .formsearch select{
+    padding: 5px;
+}
+
+.formsearch button {
+    background: #0066ff;
+    border: none;
+    cursor: pointer;
+    font-size: 140%;
+    text-align: center;
+    color: #fff;
+    background: #0066ff;
+    padding: 5px 10px;
+}
+
+.formsearch button:hover {
+    background: blue;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 120%;
+    margin-bottom: 4%;
+}
+
+table th {
+    color: #666666;
+    background: #f6f6f6;
+    padding: 10px 0;
+}
+
+table tr {
+    height: 50px;
+    border-right: 1px solid #f6f6f6;
+}
+
+table td {
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.order input {
+    width: 50%;
+    padding: 10px;
+}
+
+.order select {
+    padding: 10px;
+}
+
+table button {
+    background: #fff;
+    border: 2px solid #ff3333;
+    cursor: pointer;
+    font-size: 90%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff3333;
+    padding: 5px 15px;
+}
+
+table button:hover {
+    color: #fff;
+    background: #ff3333;
+}
+
+.link1 {
+    text-decoration: none;
+    background: #fff;
+    border: 2px solid blue;
+    cursor: pointer;
+    color: blue;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+.link1:hover {
+    color: #fff;
+    background: blue;
+}
+
+.link2 {
+    text-decoration: none;
+    background: #fff;
+    border: 2px solid #ff3333;
+    cursor: pointer;
+    color: #ff3333;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+.link2:hover {
+    color: #fff;
+    background: #ff3333;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    background: #f6f6f6;
+    margin: 2px;
+    float: left;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    color: #fff;
+    background: #999;
+}
+
+.pagination a:active {
+    background: #999;
+}

@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2022, 6:13:42 PM
+    Author     : nthie
+*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 100%;
+}
+
+body {
+    text-align: center;
+    height: 100%;
+    width: auto;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+table th {
+    color: #666666;
+    background: #f6f6f6;
+    padding: 10px 0;
+}
+
+table tr {
+    border-right: 1px solid #f6f6f6;
+}
+
+table td {
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.total {
+    color: red;
+}
+
+button {
+    background: #fff;
+    border: 2px solid #666666;
+    cursor: pointer;
+    font-size: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #666666;
+    padding: 5px 15px;
+}
+
+button:hover {
+    color: #fff;
+    background: #666666;
+}
+
+#save {
+    font-size: 90%;
+    color: #fff;
+    background: #0066ff;
+    border: none;
+    padding: 10px;
+}
+
+#save:hover {
+    background: blue;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #330033;
+}

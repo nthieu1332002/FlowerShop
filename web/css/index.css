@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 24, 2022, 7:13:25 AM
+    Author     : nthie
+*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 70%;
+}
+body {
+    height: auto;
+    width: auto;
+    padding: 0 10px;
+}
+
+header {
+    height: auto;
+    width: 100%;
+}
+
+header ul{
+    width: 100%;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    background: #330033;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    float: left;
+}
+
+header ul li a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.6em;
+    text-decoration: none;
+    background: #330033;
+    display: inline-block;
+    padding: 14px 20px;
+}
+
+header ul li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background: #ff3300;
+}
+
+.formsearch {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.formsearch input, .formsearch select{
+    padding: 5px;
+}
+
+.formsearch button {
+    background: #0066ff;
+    border: none;
+    cursor: pointer;
+    font-size: 140%;
+    text-align: center;
+    color: #fff;
+    background: #0066ff;
+    padding: 5px 10px;
+}
+
+.formsearch button:hover {
+    background: blue;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background: yellow;
+}
+
+.product {
+    font-size: 120%;
+    text-align: center;
+    width: 25%;
+    margin: 4%;
+    padding: 0 50px;
+    float: left;
+    border: 2px solid #666666;
+    border-radius: 5px;
+}
+
+.card img {
+    height:200px;
+    width:200px;
+}
+
+.product button {
+    background: #fff;
+    border: 2px solid #666666;
+    cursor: pointer;
+    font-size: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #666666;
+    padding: 5px 15px;
+}
+
+.product button:hover {
+    color: #fff;
+    background: #666666;
+}
+
+.product2 {
+    font-size: 120%;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border: 2px solid #666666;
+    border-radius: 5px;
+}
+
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #330033;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a {
+    color: black;
+    background: #f6f6f6;
+    margin-left: 4px;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    color: #fff;
+    background: #999;
+}
+
+.pagination a:active {
+    background: #999;
+}

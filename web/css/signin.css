@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 21, 2022, 2:45:21 PM
+    Author     : nthie
+*/
+
+html {
+    font-family: arial;
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: auto;
+    background: url("../images/background.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: auto;
+}
+
+.login {
+    text-align: center;
+    background:  #fff;
+    border-radius: 12px;
+    border: 1px solid rgb(194, 194, 194);
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #0066ff;
+}
+
+.inputform {
+    margin: 5%;
+    margin-bottom: 0;
+    padding: 0 10%;
+}
+
+
+.sign-up-input {
+    background: #f7f7f7;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    padding: 12px 15px;
+    border-radius: 16px;
+    font-size: 14px;
+    border: 1px solid rgb(112, 112, 112);
+}
+
+#savelogin {
+    float: left;
+    color: #333333;
+}
+
+.submit {
+    font-family: 'Kufam', cursive;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.25s;
+    text-align: center;
+    color: #fff;
+    background: #0066ff;
+}
+
+.submit:hover {
+    background: blue;
+}
+
+.forget {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.forget a {
+    color: rgb(6, 31, 253);
+    text-decoration: none;
+}
+
+.signup {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    font-style: italic;
+    color: rgb(173, 8, 238);
+}
+
+.or {
+    text-align: center;
+    color: gray;
+    position: relative;
+}
+
+.or span {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.or::after {
+    content: "";
+    width: 40%;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.return {
+    padding-bottom: 5%;
+}
+
+footer {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #330033;
+}
