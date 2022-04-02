@@ -1,0 +1,3 @@
+# FlowerShop
+A Java Web project applied MVC 2 model
+Must have database to launch web...
